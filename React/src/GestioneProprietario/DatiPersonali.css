@@ -1,0 +1,22 @@
+.containerGA{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.container_dato {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.visuaInfo {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+.modificaPassword {
+    width:70%
+}
+.containerDGA{
+    border: 2px solid black;
+}

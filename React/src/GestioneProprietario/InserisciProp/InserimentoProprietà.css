@@ -1,0 +1,247 @@
+/*CSS FATTO*/
+
+label#thumbnail{
+    margin-bottom: 20px;
+    border: 1px dashed #ddd;
+    background-size: cover;
+    cursor: pointer;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  label#thumbnail input {
+    display: none
+  }
+  
+  
+  label#thumbnail.has-thumbnail {
+    border: 0
+  }
+  label#thumbnail.has-thumbnail img{
+    display: none
+  }
+  
+  #logoAirbnb{
+    width: 130px;
+    height: 130px;
+    margin: auto;
+    display: flex;
+  }
+  .containerNew {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 60%;
+    position: relative;
+    height: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    left: 20%;
+  }
+
+  .containerNewSelezione{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 60%;
+    position: relative;
+    height: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    left: 20%;
+  }
+
+  
+  .contentNew{
+    width:100%;
+    background: #fff;
+    border-radius:  0 0 10px 10px;
+    box-shadow: 1px 1px 20px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contentNew > p {
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .contentNew form{
+    display: flex;
+    flex-direction: column
+  }
+  
+  .contentNew form label {
+    font-size: 14px;
+    color: #00bec8;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .contentNew form .i{
+    background-color: #eee;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 80%;
+    height: 45px;
+    margin-left:10%;
+  }
+
+  .contentNew form .i:focus{
+    box-shadow:none;
+    background-color: #eee;
+  }
+
+  .contentNew form .iTA{
+    background-color: #eee;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 80%;
+    height: 150px;
+    margin-left:10%;
+  }
+
+  .contentNew form .iTA:focus{
+    box-shadow:none;
+    background-color: #eee;
+  }
+
+  .containerNew form select{
+    background-color: #eee;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 80%;
+    height: 45px;
+    margin-left:10%;
+  }
+
+  .containerNew form select:focus{
+    box-shadow:none;
+    background-color: #eee;
+  }
+  
+  .containerNewSelezione button{
+    border-radius: 2px;
+    border: 1px solid #00bec8;
+    background-color: #00bec8;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius:  0 0 10px 10px;
+    width: 100%;
+  }
+
+  .contentNew button{
+    border-radius: 2px;
+    border: 1px solid #00bec8;
+    background-color: #00bec8;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius:  0 0 10px 10px;
+    width: 100%;
+  }
+
+  
+  .contentNew form label span{
+    font-weight: normal;
+    color: #999999;
+    font-size: 12px;
+  }
+
+  .containerNew form .inputImg{
+    width: 40%;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 4px;
+    height: 45px;
+    background-color: #eee;
+    font-size:10px;
+  }
+  
+  .containerNew form h2{
+    color: #00bec8;
+  }
+
+  .containerNewSelezione h2{
+    color: #00bec8;
+  }
+
+  .containerNewSelezione .bottoniScelta{
+    width: 80%;
+    border-radius: 0;
+    margin-bottom: 10px;
+  }
+
+  .containerNew form .bottoniScelta{
+    width: 80%;
+    border-radius: 0;
+    margin-bottom: 10px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .containerNew {
+      width: 80%;
+      height: 100%;
+      left: 10%;
+    }
+
+    .containerNewSelezione{
+      width: 50%;
+      height: 100%;
+    }
+  }
+
+  @media only screen and (min-width: 600px) and (max-width: 768px) {
+    .containerNew {
+      width: 70%;
+      height: 100%;
+      left: 15%;
+    }
+
+    .containerNewSelezione{
+      width: 50%;
+      height: 100%;
+    }
+  }
+
+  @media only screen and (min-width: 768px){
+    .containerNew {
+      width: 50%;
+      height: 100%;
+      left: 25%;
+    }
+
+    .containerNewSelezione{
+      width: 50%;
+      height: 100%;
+      margin-top: 15%;
+      margin-bottom: 15%;
+      left: 25%;
+      position: relative;
+    }
+  }

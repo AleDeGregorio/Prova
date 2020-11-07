@@ -1,0 +1,23 @@
+.Errore {
+    font-family: sans-serif;
+    width: 100%;
+    position: relative;
+    height: 700px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
+  
+  
+.Errore h1 {
+  font-weight: bold;
+  margin: 0;
+}
+
+.Errore p {
+    font-size: 28px;
+    font-weight: 100%;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    margin: 20px 0 30px;
+    
+  }

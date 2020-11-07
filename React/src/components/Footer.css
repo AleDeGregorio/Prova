@@ -1,0 +1,88 @@
+.Footer {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .container{
+      width: 100%;
+  }
+  
+  .title {
+    color: #00bec8;
+    border-bottom: solid 2px #00bec8;
+    padding-top: 1rem;
+    margin-right: 10px;
+  }
+
+  .title:hover {
+    cursor: pointer;
+    color: #01686b;
+  }
+  
+  img {
+    width: 180px;
+    height: 150px;
+  }
+  
+  footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #f4f5f6;
+  }
+  .fa {
+    padding: 2px;
+    font-size: 30px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .icone-social{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Add a hover effect if you want */
+  .icone-social:hover {
+    opacity: 0.7;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 600px) {
+    /*.container {
+      text-align: left;
+    }*/
+    .title,
+    .list-unstyled {
+      text-align: left;
+    }
+    img {
+      display: none;
+    }
+  
+    .title {
+      border-bottom: none;
+    }
+    .fa {
+      font-size: 15px;
+    }
+  }
+  
+  @media (max-width: 991px) and (min-width: 768px) {
+    .fa {
+      font-size: 15px;
+    }
+    .list-unstyled {
+      font-size: 11px;
+    }
+  }

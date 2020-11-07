@@ -1,0 +1,9 @@
+.containeracc{
+    width:60%;
+    eight:60%;
+}
+.headcac{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

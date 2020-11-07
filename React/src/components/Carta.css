@@ -1,0 +1,73 @@
+.Carta{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    
+  }
+  
+  .cardHome {
+    width: 450px;
+    height: 450px;
+    border-radius: 3px;
+  }
+  
+  /*.card:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+  
+  .card-info {
+    transform: translateY(0);
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    padding: 10px;
+    color: #fff;
+    transition: all 0.25s ease-in;
+  }
+  
+  .card:hover .card-info {
+    transform: translateY(100%);
+  }
+  
+  .card-title {
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 1.3px;
+    line-height: 33px;
+    margin: 0;
+  }
+  
+  .card-description {
+    font-size: 16px;
+    letter-spacing: 1.3px;
+    line-height: 22px;
+  }
+
+  
+  
+ 
+  
+
+  
+  @keyframes waves {
+    0% {
+      background-position: 0;
+    }
+    100% {
+      background-position: 1360px;
+    }
+  }
+  
+  @media screen and (max-width: 720px) {
+    .Carta {
+      flex-direction: column;
+    }
+  
+    .Carta > *:not(:last-child) {
+      margin-bottom: 20px;
+    }
+  }
+  */

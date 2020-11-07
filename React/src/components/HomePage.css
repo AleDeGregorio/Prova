@@ -1,0 +1,21 @@
+.imgHome{
+    width: 100%;
+    height: 100%;
+}
+
+.carteHome{
+    width: 100%;
+    height: 100%;
+}
+
+.containerCarteHome{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.containerCarosello{
+    width: 100%;
+    height: 50%;
+}

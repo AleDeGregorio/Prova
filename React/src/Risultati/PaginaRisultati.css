@@ -1,0 +1,36 @@
+.RisultatiCard {
+    box-shadow: 0 0 0 , 0 0 0;
+    width: 250px;
+    height: 250px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.RisultatiCard:hover {
+    box-shadow: 0 0 0, 0 0 0;
+  }
+  
+  
+  .immagineRisultati{
+      width: 250px;
+      height: 170px;
+  }
+
+  .googleMaps{ 
+    height: 100%; 
+    width: 100%; 
+    padding: 0px; 
+    border-width: 0px; 
+    margin: 0px; 
+    left: 0px; 
+    top:0px; 
+    position: fixed;
+  }
+
+  .mappa {
+    height: 900px; 
+    width: 100%;
+    position: sticky;
+    top: 0; 
+  }

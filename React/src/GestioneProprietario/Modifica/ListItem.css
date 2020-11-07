@@ -1,0 +1,13 @@
+.LinkList:focus{
+    color:black;
+    text-decoration: none;
+}
+
+.LinkList{
+    color:black;
+}
+
+.LinkList:hover{
+    color: black;
+    text-decoration: none;
+}
